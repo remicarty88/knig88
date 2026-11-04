@@ -1,8 +1,0 @@
-# Railway / Nixpacks: Node.js для сайта + Python для сервиса озвучки (edge-tts).
-# Nixpacks сам определяет оба стека и ставит зависимости:
-#   npm install  и  pip install -r requirements.txt
-# Здесь задаём только стартовую команду, чтобы поднялся и сайт, и озвучка.
-# --env-file-if-exists подхватывает .env, если он есть; на Railway переменные приходят из Variables.
-
-[start]
-cmd = "node --env-file-if-exists=.env server.js --tts"
