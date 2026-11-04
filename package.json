@@ -1,9 +1,0 @@
-{
-  "name": "bookapp",
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": { "start": "node --env-file-if-exists=.env server.js",
-    "start:all": "node --env-file-if-exists=.env server.js --tts",
-    "tts": "python tts_server.py" },
-  "dependencies": { "flibusta": "latest" }
-}
